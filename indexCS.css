@@ -1,0 +1,129 @@
+body {
+	background-image: url(bg.jpg);
+	background-position: center;
+	background-size: cover;
+  overflow-x: hidden;
+	margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#box {
+  background-color: black;
+  position: absolute;
+  width: 101.2%;
+  height:90px;
+  background: rgba(0, 0, 0, 0.7);
+  top: -12px;
+  left: -0.8%;
+  text-align: center;
+}
+
+ul{
+  float:right;
+  list-style-type: none;
+  margin-top:37px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid #fff transparent;
+}
+
+ul li a:hover{
+  color: slategrey;
+}
+
+h1{
+	color: white;
+	padding-top: 10px;
+	padding-left: 30px;
+	text-align: left;
+	font-family: Verdana Bold Italic;
+}
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#cardCallout{
+  position: absolute;
+  text-align: center;
+  background: rgb(231, 222, 201); 
+  top: 25%;
+  right: : 25%;
+  left: 20%;
+  min-height: 500px;
+  width: 800px;
+  border-radius: 40px;
+  padding: 0 80px;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5), 0 0 50px rgba(0, 0, 0, 0.5);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+h2{
+	text-align: center;
+	padding-top: 100px;
+}
+
+#but1, #but2, #but3{
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 30px;
+	text-align: center;
+	position: relative;
+	font-size: 20px;
+	font-family: Open sans;
+  font-weight: bold;
+	left: 37.5%;
+	top: 92.5%;
+}
+#but1:hover{
+  color:slategrey;
+}
+#but2:hover{
+  color:slategrey;
+}
+#but3:hover{
+  color:slategrey;
+}
+
+#but1:active{
+  background-color: #FFFFFF;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#but2:active{
+  background-color: #FFFFFF;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#but3:active{
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,50 @@
+body {
+	background-image: url(valuu.jpg);
+	background-position: absolute;
+	background-size: cover;
+	margin: 0;
+  	padding: 0;
+}
+h1{
+	text-align: center;
+	color: white;
+	font-family: Verdana Bold Italic;
+}
+#wrapper { 
+    width: 920px; 
+    height: auto; 
+    margin: 0 auto;
+} 
+#home1 { 
+    width: 47.5%; 
+    height: 300px; 
+    float: left; 
+    margin-right: 5%;
+} 
+
+#home2 { 
+    width: 47.5%; 
+    height: 300px; 
+    float: left; 
+}
+
+.clear{
+    clear: both;
+}
+
+@media (max-width:767px) {
+    #wrapper{
+        width: 100%;
+        height: auto;
+    }
+    #home1 {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    #home2 {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+}
